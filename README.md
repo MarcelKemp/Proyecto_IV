@@ -1,4 +1,4 @@
-# Proyecto_IV
+# Dealer (Proyecto_IV)
 
 ## Descripción del proyecto
 
@@ -26,8 +26,9 @@ Se ha creado una clase en */src/Crupier.py*, la cual crea una instancia con *n* 
 ## Para ejecutar los tests
 Para realizar los tests en nuestro proyecto, haremos uso del framework  **pytest**. Y para ejecutarlo usaremos el siguiente comando:
 
-      	pytest
+    pytest
 
 Además el repositorio está configurado para que los tests pasen por **Travis CI** (servicio de integración continua).
 
 ---
+#### Autor: Marcel Kemp Muñoz
