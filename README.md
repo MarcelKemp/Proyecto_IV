@@ -1,5 +1,7 @@
 # Dealer (Proyecto_IV)
 
+[![Build Status](https://travis-ci.com/MarcelKemp/Proyecto_IV-Dealer.svg?branch=master)](https://travis-ci.com/MarcelKemp/Proyecto_IV-Dealer)
+
 ## Descripción del proyecto
 
 Este proyecto consistirá en la realización de un micro-servicio encargado de repartir cartas, principalmente para poder integrarse en un servicio de Poker hold'em.
@@ -28,7 +30,7 @@ Para realizar los tests en nuestro proyecto, haremos uso del framework  **pytest
 
     pytest
 
-Además el repositorio está configurado para que los tests pasen por **Travis CI** (servicio de integración continua).
+Además el repositorio está configurado para que los tests pasen por **Travis CI** (servicio de integración continua). Comprobación: [![Build Status](https://travis-ci.com/MarcelKemp/Proyecto_IV-Dealer.svg?branch=master)](https://travis-ci.com/MarcelKemp/Proyecto_IV-Dealer)
 
 ---
 #### Autor: Marcel Kemp Muñoz
