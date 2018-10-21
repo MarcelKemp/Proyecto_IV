@@ -9,7 +9,6 @@ Estará basado en el número de usuarios (con limitación, por la capacidad en l
 ## Herramientas
 ---
 - **Python** será el lenguaje de programación usado.
-- **Django** o **Hug**, seguramente uno de ellos sea el framework que usaremos.
-- **MySQL** o **MariaDB**, será la base de datos utilizada.
-- **Atom** como el editor de textos principal.
-- **Azure** o **GCP** para el despliegue en la nube (por la ayuda que nos han suministrado para la asignatura).
+- **Hug**, como el framework que usaremos.
+- **MariaDB**, será la base de datos utilizada.
+
