@@ -11,7 +11,7 @@ def test_comprobar_valores():
 def test_mostrar_mano_OK_y_error():
     jugadores=5
     crupier = Crupier(jugadores)
-    mano=crupier.repartir_cartas_jugadores() 
+    mano=crupier.repartir_cartas_jugadores()
     assert crupier.mostrar_mano(mano,1)==0
     try:
         prueba = crupier.mostrar_mano(mano,-1)
