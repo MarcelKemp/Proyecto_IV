@@ -143,22 +143,22 @@ if __name__=='__main__':
 	#json_str = json.dumps(data)
 	#print('Datos en formato JSON:', json_str)
 
-#Datos juego actual
-with open('data.json', 'w') as write_file:
-	json.dump(data, write_file)
+	#Datos juego actual
+	with open('data.json', 'w') as write_file:
+		json.dump(data, write_file)
 
-test=baraja.get_JSON()
-partida=test['Cartas']
-manos=partida['jugadores']
-mesa=partida['mesa']
-baraja=partida['baraja']
-descartes=partida['descartes']
+	test=baraja.get_JSON()
+	partida=test['Cartas']
+	manos=partida['jugadores']
+	mesa=partida['mesa']
+	baraja=partida['baraja']
+	descartes=partida['descartes']
 
-print (partida['jugador_0'])
+	#print (partida['jugador_0'])
 
 
 
-# Este segundo json, corresponderá al historial de cada jugada
-# with open('history.json', 'a') as history_file:
-# 	history={'PartidaX': data}
-# 	json.dump(history, history_file)
+	# Este segundo json, corresponderá al historial de cada jugada
+	# with open('history.json', 'a') as history_file:
+	# 	history={'PartidaX': data}
+	# 	json.dump(history, history_file)
