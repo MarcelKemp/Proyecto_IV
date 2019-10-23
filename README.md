@@ -12,7 +12,8 @@ Estará basado en el número de usuarios (con limitación, por la capacidad en l
 ## Herramientas
 - **Python** será el lenguaje de programación usado.
 - **Hug**, como el framework que usaremos.
-- **MariaDB**, será la base de datos utilizada.
+- **MariaDB** será la base de datos utilizada.
+- **LogStash** para la administración de logs.
 
 ---
 ## Descripción de la clase
