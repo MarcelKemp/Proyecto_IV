@@ -31,7 +31,7 @@ Para realizar los tests en nuestro proyecto, haremos uso del framework  **pytest
 
     pytest
 
-Además el repositorio está configurado para que los tests pasen por **Travis CI** (servicio de integración continua). Comprobación: [![Build Status](https://travis-ci.com/MarcelKemp/Proyecto_IV-Dealer.svg?branch=master)](https://travis-ci.com/MarcelKemp/Proyecto_IV-Dealer)
+Además el repositorio está configurado para que los tests pasen por **Travis CI** (servicio de integración continua).
 
 ---
 #### Autor: Marcel Kemp Muñoz
